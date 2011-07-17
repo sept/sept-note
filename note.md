@@ -83,11 +83,6 @@
     
       git push -u origin master
 			           
- ### Existing Git Repo?
-
-    cd existing_git_repo
-    git remote add origin git@github.com:sept/sept-note.git
-    git push -u origin master
 					   
 ## linux basic
  
