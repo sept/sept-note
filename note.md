@@ -57,32 +57,35 @@
  
  2，减补丁    patch -R h.c < h.diff     （其中 “R”  即reverse 相反）
 
+# 关于github.com上Create a Repository
 
-## global setup: 
+## global setup:
 
-###Set up git
+###Set up git        
+    （在vim 中建立自己的用户名）
    
    git config --global user.name "sept"
    
    git config --global user.email jfsgj@163.com
 
-###Next steps:
+###Next steps:    
+     
       mkdir sept-note
 
-      cd sept-note
+      cd sept-note                      （可 查看 隐藏文件中 是否有.git）
      
-      git init
-     
-      touch README
+      git init                          （如果没有 加入 .git）
       
-      git add README
+      git add note.md                   （增加跟踪文件 note.md）
    
-      git commit -m 'first commit'
+      git commit -m '+留言信息'
      
-      git remote add origin git@github.com:sept/sept-note.git
+      git remote add origin git@github.com:sept/sept-note.git   
     
       git push -u origin master
-			           
+
+__注__:如果在文件中更新 新的内容字后 git commit -a -m "+留言信息"
+                        然后 使用    git push  直接上传至网页即可			           
 					   
 ## linux basic
  
