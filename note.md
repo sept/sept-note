@@ -7,9 +7,9 @@
 
    sudo apt-get install tig
  
-  （从网页上载入更新的内容）
+   git clone + 网页 only-read 地址  
  
-    git pull
+   git pull   更新网页内容
  
    查看用 tig 看加入的内容 d
                                                                             
@@ -45,7 +45,7 @@
 
 ## 找两个文件差异
  
- 1， 建立新的文件eg:h.c   并 拷贝到文件 eg:h1.c  修改h1.c 的内容
+   1， 建立新的文件eg:h.c   并 拷贝到文件 eg:h1.c  修改h1.c 的内容
 
    2，diff -u h.c h1.c                    可直接列出两文件中的多的部分
    
