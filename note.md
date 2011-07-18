@@ -97,6 +97,20 @@ __注__:如果在文件中更新 新的内容字后 git commit -a -m "+留言信
 ###vim中 添加行号
    即 ～ vim .vimrc  中输入 set number 即可
    删除行号 即set hidden          
+###可视行(visual line)
+
+	启动和退出: V
+
+	整体缩进几行代码：
+
+	首先用可视行模式选中这几行,然后 >
+###multiple files
+
+	:ls #see buffers
+	:bn # go to next buffer
+	:bp # go to previous buffer
+	:bd # delete a buffer
+
 					   
 ## linux basic
  
