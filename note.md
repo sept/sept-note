@@ -13,14 +13,6 @@
  
    查看用 tig 看加入的内容 d
                                                                             
-## vim
-
-    Command = operator + number + motion
-                d(elete)  1,2
-                y(ank)             gg+G
-
-                u 还原  p 粘贴
-### 注：在vim中 粘贴或进行别的操作时  一定先点i 后可输入
 
 ## git basic
     
@@ -86,6 +78,25 @@
 
 __注__:如果在文件中更新 新的内容字后 git commit -a -m "+留言信息"
                         然后 使用    git push  直接上传至网页即可			           
+## vim
+
+    Command = operator + number + motion
+                d(elete)  1,2
+                y(ank)             gg+G
+
+       其中   小写u还原上一次操作 大写U是恢复原始即全部撤销
+              小写p粘贴在光标的下一行 大写P粘贴再光标的上一行
+
+### 注：在vim中 粘贴或进行别的操作时  一定先点i 后可输入
+
+
+###vim 中
+   若非正常关闭或文件正在打开状态中 则此文件的目录名下会多出隐藏文件
+   （如：note.md.swp）即 以.swp格式的隐藏文件 
+   关闭后 若还有 使用rm -rf 强制删除即可
+###vim中 添加行号
+   即 ～ vim .vimrc  中输入 set number 即可
+   删除行号 即set hidden          
 					   
 ## linux basic
  
@@ -173,9 +184,13 @@ __注__:如果在文件中更新 新的内容字后 git commit -a -m "+留言信
 
   3 然后 用firebox  .md（即网页打开的形式打开笔记）
 
-  4 其中： 输入 代码时前面打几个空格
+  4  markdown note.md >note.html    (即将.md转化.html)
+     firefox note.html              （）
+     vim note.md  
+  
+  5 其中： 输入 代码时前面打几个空格
 
-  5  内容顶格输入
+  6  内容顶格输入
 
 ## 快速查找
 
