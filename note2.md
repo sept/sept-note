@@ -1,4 +1,4 @@
-s#第二部分 program C
+#第二部分 program C
 
 ###编译gcc（cc）
      gcc -Wall a.c      #调试
