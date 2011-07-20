@@ -202,11 +202,11 @@ __注__:如果在文件中更新 新的内容字后 git commit -a -m "+留言信
 
   3 然后 用firebox  .md（即网页打开的形式打开笔记）
 
-  4  markdown note.md >note.html    (即将.md转化.html)
+  4 markdown note.md >note.html    (即将.md转化.html)
      
-     firefox note.html              （网页上查看 就会有相应的格式）
+    firefox note.html              （网页上查看 就会有相应的格式）
      
-     vim note.md  
+    vim note.md  
   
   5 其中： 输入 代码时前面打几个空格
 
