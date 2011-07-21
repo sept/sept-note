@@ -38,6 +38,8 @@
     
 ###删除 上传到github 的文件
     git rm trash              
+    
+    git commit -a -m "delete a file"
 
     git push
 
