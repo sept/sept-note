@@ -67,6 +67,17 @@
    git config --global user.name "sept"
    
    git config --global user.email jfsgj@163.com
+###set ssh-key
+
+    ~$ ssh-keygen
+
+    then knock enter 3 times
+
+    ~$ cd .ssh
+
+    vim id_rsa.pub
+
+    paste the constent to the Account settings and set key
 
 ###Next steps:    
      
