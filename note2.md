@@ -9,8 +9,7 @@
     (此光标保持不变 修改之后需保存方可调试)
 
 ###vim中使用Tab补全 功能
-
- (the substance of install the vim plugin is that put plugin behind /home/akaedu )
+(the substance of install the vim plugin is that put plugin behind /home/akaedu )
 
        unzip snipmate.zip -d ~/.vim
 

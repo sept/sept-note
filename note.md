@@ -35,6 +35,11 @@
     tig                            查看修改的内容
     
     history 10                    查看此终端的用过的十个命令
+    
+###删除 上传到github 的文件
+    git rm trash              
+
+    git push
 
 ## 找两个文件差异
  
