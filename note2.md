@@ -48,4 +48,7 @@ then  we can use that set
 
     set shiftwidth=4   “用 '>' 同样占四个空格”
 
+    set dictionary=/usr/share/dict/words  "使用 <ctrl-x-k> 查找单词; 使用 <ctrl-x-f> 查找目录文件名"
 ###use <ctrl-t>  <ctrl-d> under i_  to aligning(对齐) the line 
+
+
