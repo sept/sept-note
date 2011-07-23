@@ -47,3 +47,5 @@ then  we can use that set
     set tabstop=4    “让<tab>占四个空格”
 
     set shiftwidth=4   “用 '>' 同样占四个空格”
+
+###use <ctrl-t>  <ctrl-d> under i_  to aligning(对齐) the line 
