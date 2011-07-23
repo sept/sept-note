@@ -37,9 +37,9 @@
 
 then close the bash and open bash again
 
-or  ~$ source .bashrc 
+     or  ~$ source .bashrc 
 
-then  we can use that set
+then  we can use that setting
 ###set vim
 (set <tab> equal 4 whitespace)
     set autoindent   ”自动缩进“
@@ -58,23 +58,56 @@ then  we can use that set
 
     imap jj :<Esc>          "在插入模式下 use 'jj' to instead <Esc>"
 
+after setting that close the vim , we can use them after open it again
 ###use <ctrl-t>  <ctrl-d> under insert mode to aligning(对齐) the line 
 
 ###check the IP
 
-    (input) ifconfig
+      (input) ifconfig
 ###log in others computer
 
-    sudo apt-get install openssh-server
+install openssh
 
-    ssh peter@193.**.**.**
+        sudo apt-get install openssh-server
 
-    logout  "equit from others computer"
+connect a computer with its user and IP address
 
-__copy__:
+        ssh peter@193.**.**.**
+
+exist from connect
+
+        logout  or <ctrl-d>
+
+__copy__others file or directory:
         
         scp peter@**.**.**:~/h.c .  "copy h.c to my currentdirctory"
 
+stop or start to connect two computer
+
         sudo service ssh stop/start       "stop/start others log in"
 
-    
+### ctags
+
+    install ctags
+
+    ctrl-]    #from call to  definition    
+
+    ctrl-t    #回到跳转前的位置 
+
+    ctags *   +多个文件    
+### The help of vim
+        
+        (input) vim
+
+search under ordinary mode  
+      
+       :h o    
+
+search under insert mode
+
+       :h i_ctrl_d
+
+      (or use "h c" knock <Tab>)
+## ldd
+
+http://tldp.org/HOWTO/Program-Library-HOWTO/
