@@ -38,6 +38,11 @@ then close the bash and open bash again
 or  ~$ source .bashrc 
 
 then  we can use that set
-
-
+###set vim
+(set <tab> equal 4 whitespace)
+    set autoindent
+    
+    set expandtab
+    
+    set tabstop=4
 
