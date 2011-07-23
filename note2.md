@@ -51,4 +51,19 @@ then  we can use that set
     set dictionary=/usr/share/dict/words  "使用 <ctrl-x-k> 查找单词; 使用 <ctrl-x-f> 查找目录文件名"
 ###use <ctrl-t>  <ctrl-d> under i_  to aligning(对齐) the line 
 
+###check the IP
 
+    (input) ifconfig
+###log in others computer
+
+    sudo apt-get install openssh-server
+
+    ssh peter@193.**.**.**
+
+    logout  "equit from others computer"
+
+__copy__:
+        
+        scp peter@**.**.**:~/h.c .  "copy h.c to my currentdirctory"
+
+        sudo service ssh stop/start       "stop/start others log in"
