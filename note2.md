@@ -1,6 +1,6 @@
-#第二部分 program C
+#The part of program C
 ##apply for vim
-###编译gcc（cc）
+###编译(compiling)gcc（cc）
      gcc -Wall a.c      #调试
 
      echo $?            #测试系统的返回值
@@ -10,6 +10,8 @@
 
 ###vim中使用Tab补全 功能
 (the substance of install the vim plugin is that put plugin behind /home/akaedu )
+      
+       download the snipmate.zip
 
        unzip snipmate.zip -d ~/.vim
 
@@ -49,7 +51,14 @@ then  we can use that set
     set shiftwidth=4   “用 '>' 同样占四个空格”
 
     set dictionary=/usr/share/dict/words  "使用 <ctrl-x-k> 查找单词; 使用 <ctrl-x-f> 查找目录文件名"
-###use <ctrl-t>  <ctrl-d> under i_  to aligning(对齐) the line 
+
+    map ,ss =set spell <cr>    "set spell under file or annotation(注释) in the vim"
+    
+    map <Tab> :bn<cr>           
+
+    imap jj :<Esc>          "在插入模式下 use 'jj' to instead <Esc>"
+
+###use <ctrl-t>  <ctrl-d> under insert mode to aligning(对齐) the line 
 
 ###check the IP
 
@@ -67,3 +76,5 @@ __copy__:
         scp peter@**.**.**:~/h.c .  "copy h.c to my currentdirctory"
 
         sudo service ssh stop/start       "stop/start others log in"
+
+    
