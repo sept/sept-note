@@ -40,9 +40,10 @@ or  ~$ source .bashrc
 then  we can use that set
 ###set vim
 (set <tab> equal 4 whitespace)
-    set autoindent
+    set autoindent   ”自动缩进“
     
-    set expandtab
+    set expandtab    “把<tab>展开成空格”
     
-    set tabstop=4
+    set tabstop=4    “让<tab>占四个空格”
 
+    set shiftwidth=4   “用 '>' 同样占四个空格”
