@@ -111,3 +111,18 @@ search under insert mode
 ## ldd
 
 http://tldp.org/HOWTO/Program-Library-HOWTO/
+
+##Makefile
+
+ 前提是当前目录下 有 Makefile 的文件  才可以执行 make
+ 
+ sudo make install
+
+ xxx times/how
+
+sudo apt-get install libncurses5 libncurses5-dev
+
+sudo make install
+
+
+

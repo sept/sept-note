@@ -36,6 +36,28 @@
     
     history 10                    查看此终端的用过的十个命令
     
+    git add .   
+  
+    git commit -a -v
+
+###where are you? 
+ 
+    which + name of command
+
+    locate + name of directory   "并不是当前的数据库 故需要用'sudo updatedb'来更新"
+
+### "|" and "grep"(筛选)
+    
+    ：find ***|grep **             “”
+    
+         ‘|’管道符 
+
+    ps aux | grep firefox            kill 2003
+    
+    kill -9 ***                “关闭或杀死”
+
+       '-9'强行关闭
+
 ###删除 上传到github 的文件
     git rm trash              
     
@@ -128,6 +150,7 @@ eg : from master to one branch then we can define a name for the branch, after i
 
                                           b:branch   the name of the branch
 
+       git br -D one_file_start           "delete the branch"
 ## vim
 
     Command = operator + number + motion
