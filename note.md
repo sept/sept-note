@@ -97,6 +97,17 @@
 
 __注__:如果在文件中更新 新的内容字后 git commit -a -m "+留言信息"
                         然后 使用    git push  直接上传至网页即可			           
+
+###恢复/删除上个版本
+hold a new condition to reset the previous condition(状态)
+
+git reset --hard HEAD
+
+git reset --hard HEAD^
+
+hold a new versions(版本)  or have git push it to the web
+
+git revert head
 ## vim
 
     Command = operator + number + motion

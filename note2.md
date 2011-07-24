@@ -56,7 +56,7 @@ then  we can use that setting
     
     map <Tab> :bn<cr>           
 
-    imap jj :<Esc>          "在插入模式下 use 'jj' to instead <Esc>"
+    imap jj <Esc>          "在插入模式下 use 'jj' to instead <Esc>"
 
 after setting that close the vim , we can use them after open it again
 ###use <ctrl-t>  <ctrl-d> under insert mode to aligning(对齐) the line 
