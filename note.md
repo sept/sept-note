@@ -98,16 +98,22 @@
 __注__:如果在文件中更新 新的内容字后 git commit -a -m "+留言信息"
                         然后 使用    git push  直接上传至网页即可			           
 
-###恢复/删除上个版本
+###恢复/删除上个版本/状态
+
 hold a new condition to reset the previous condition(状态)
 
-git reset --hard HEAD
+git reset --hard HEAD          “保存 但是没有定制版本”
 
-git reset --hard HEAD^
+git reset --hard HEAD^         “保存 并且定制版本”
 
-hold a new versions(版本)  or have git push it to the web
+hold a new versions(版本)  or have __git push__ it to the web
+(can not use 'rm' or 'git throwh',they will be rejected by system)
 
-git revert head
+git revert HEAD               
+
+__reset__  ： delete the last condition
+
+__revert__ ： regain(恢复)the second versions(即和上个版本做了一次正负操作 也即回到了上上一个版本)
 ## vim
 
     Command = operator + number + motion
