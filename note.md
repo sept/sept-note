@@ -102,18 +102,32 @@ __注__:如果在文件中更新 新的内容字后 git commit -a -m "+留言信
 
 hold a new condition to reset the previous condition(状态)
 
-git reset --hard HEAD          “保存 但是没有定制版本”
+    git reset --hard HEAD          “保存 但是没有定制版本”
 
-git reset --hard HEAD^         “保存 并且定制版本”
+    git reset --hard HEAD^         “保存 并且定制版本”
 
 hold a new versions(版本)  or have __git push__ it to the web
 (can not use 'rm' or 'git throwh',they will be rejected by system)
 
-git revert HEAD               
+    git revert HEAD               
 
 __reset__  ： delete the last condition
 
 __revert__ ： regain(恢复)the second versions(即和上个版本做了一次正负操作 也即回到了上上一个版本)
+
+###查看分支 及 返回
+       git checkout + (版本号 即 commit 后面的号)
+       
+       git checkout master  返回
+
+       git branch 查看分支
+
+eg : from master to one branch then we can define a name for the branch, after it we can from master to the branch directly
+   
+       git checkout+(one number of a branch) -b one_file_start
+
+                                          b:branch   the name of the branch
+
 ## vim
 
     Command = operator + number + motion
