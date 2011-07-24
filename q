@@ -2,12 +2,3 @@ sdhajkk
 
 
 dasd
-
-
-
-
-
-djkadjakds
-
-sdadad
-
