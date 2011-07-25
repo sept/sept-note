@@ -149,6 +149,7 @@ eg : from master to one branch then we can define a name for the branch, after i
        git checkout+(one number of a branch) -b one_file_start
 
                                           b:branch   the name of the branch
+或者 再进入 一个新的分支下 直接git checkout -b one_file_start  即可
 
        git br -D one_file_start           "delete the branch"
 ## vim
