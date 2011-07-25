@@ -60,7 +60,7 @@ then  we can use that setting
 
 after setting that close the vim , we can use them after open it again
 
-###__use__ <ctrl-t> 、 <ctrl-d> under insert mode to aligning(对齐) the line 
+__use__ <ctrl-t> 、 <ctrl-d> under insert mode to aligning(对齐) the line 
 
 ###check the IP
 
