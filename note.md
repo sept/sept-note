@@ -294,3 +294,12 @@ eg : from master to one branch then we can define a name for the branch, after i
 
   网页上 输入同上  查找ctrl g/G
 
+##question about git push
+
+  if something wrong with git push
+
+  delete the current dir.
+
+  use git clone (+ "ssh"address)
+
+  then can use git push
