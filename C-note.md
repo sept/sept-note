@@ -272,3 +272,26 @@ fputc函数的功能是把一个字符写入指定的文件中，函数调用的
         size_t fread(void *ptr, size_t size, size_t nmemb, FILE *stream);
         size_t fwrite(const void *ptr, size_t size, size_t nmemb,
 
+###getchar()  和 getch()
+
+getchar 由宏实现：#define getchar() getc(stdin)。
+
+getchar有一个int型的返回值.当程序调用getchar时.程序就等着用户按键.用户输入的字符被存放在键盘缓冲区中.
+
+__直到用户按回车为止(回车字符也放在缓冲区中)__.
+
+当用户键入回车之后,getchar才开始从stdin流中每次读入一个字符.
+
+getchar函数的返回值是用户输入的第一个字符的ASCII码,如出错返回-1,且将用户输入的字符回显到屏幕.
+
+如用户在按回车之前输入了不止一个字符,其他字符会保留在键盘缓存区中,等待后续 getchar调用读取.
+
+也就是说,后续的getchar调用不会等待用户按键,而直接读取缓冲区中的字符,直到缓冲区中的字符读完为后,才等待用户按键.
+　　
+getch与getchar基本功能相同,差别是getch直接从键盘获取键值,不等待用户按回车,只要用户按一个键,getch就立刻返回, 
+
+getch返回值是用户输入的ASCII码,出错返回-1.输入的字符不会回显在屏幕上.
+
+getch函数常用于程序调试中,在调试时,在关键位置显示有关的结果以待查看,然后用getch函数暂停程序运行,当按任意键后程序继续运行.
+
+这个版本忽略了个重点，getch()是非缓冲输入函数，就是不能用getch（）来接受缓冲区已存在的字符，
